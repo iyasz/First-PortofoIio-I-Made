@@ -1,0 +1,600 @@
+@font-face {
+    font-family:poppins;
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: opp;
+    src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: oppp;
+    src: url(Poppins-Medium.ttf);
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.booo {
+    height: 750px;
+	background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(bg.png);
+	background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.nav-bar a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    position: relative;
+    left: 915px;
+    padding-left: 27px;
+    top: 20px;
+    opacity: 60%;
+    font-family: poppins;
+    letter-spacing: 0.2px;
+}
+
+.nav-bar a:hover {
+    color: white;
+    opacity: 100%;
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: opp;
+    letter-spacing: 1.5px;
+    color: white;
+    font-size: 49px;;
+    position: relative;
+    top: 90px;
+
+}
+
+.menu h2 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: white;
+    font-size: 15px;
+    font-family: poppins;
+    letter-spacing: 1.3px;
+    opacity: 70%;
+    font-weight: initial;
+}
+
+.text {
+    display: flex;
+    background: white ;
+    width: 32%;
+    height: 55px;
+    color: black;
+    padding-left: 70px;
+    text-align: center;
+    font-size: 9px;
+    position: relative;
+    top: 70px;
+    
+    left: 410px;;
+    font-family: opp;
+    border-radius: 9px;
+}
+
+.text h3 {
+    opacity: 60%;
+}
+
+.loc {
+    position: relative;
+    left: -30px;
+    line-height: 7px;
+    top: 7px;
+    font-size: 8px;
+}
+
+
+.Date {
+    position: relative;
+    left: 22px;
+    line-height: 7px;
+    top: 7px;
+    font-size: 8px;
+}
+
+.Gues {
+    position: relative;
+    left: 86px;
+    line-height: 7px;
+    top: 7px;
+    font-size: 8px;
+}
+
+.srcc {
+    position: relative;
+    /* left: 167px; */
+    /* top: 4px; */
+    font-size: 7px;
+    background-color: #3e588c;
+    width: 100px;
+    left: 158px;
+    top: 0px;
+    color: white;
+    font-weight: initial;
+    padding-top: 6px;
+    letter-spacing: 1px;
+    font-family: poppins;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.srcc h1 {
+    opacity: 80%;
+}
+
+.gllry {
+    background-color: #1d3d7e;
+    width: 50%;
+    position: relative;
+    top: -14px;
+    height: 390px;
+}
+
+.gal {
+    color: white;
+    font-family: opp;
+    font-size: 12px;
+    position: relative;
+    left: 54px;
+    top: 55px;
+    letter-spacing: 0.6px;
+    opacity: 80%;
+}
+
+.diss {
+    position: relative;
+    left: 54px;
+    top: 35px;
+    font-family: poppins;
+    color: white;
+    letter-spacing: 1.4px;
+    line-height: 1.4;
+}
+
+.desk {
+    position: relative;
+    left: 54px;
+    color: white;
+    font-family: poppins;
+    font-weight: 10;
+    font-size: 12px;
+    top: 35px;
+    letter-spacing: 0.5px;
+}
+
+.btn a {
+    color: white;
+    background-color: black;
+    position: relative;
+    left: 54px;
+    top: 55px;
+    text-decoration: none;
+    padding: 7px 21px 7px 21px;
+    font-family: opp;
+    letter-spacing: 1px;
+    font-size: 13px;
+    border-radius: 4px;
+    font-weight: initial;
+}
+
+.btn a:hover {
+    background-color: rgb(10, 10, 10);
+    color: blanchedalmond;
+}
+
+.immg img {
+    width: 50%;
+    float: right;
+    position: relative;
+    top: -385px;
+    height: 360px;
+}
+
+.place {
+    /* background-image: url(bg,PNG); */
+}
+
+.txt {
+    position: relative;
+    right: -415px;
+    background-color: whitesmoke;
+    width: 500px;
+    height: 160px;
+}
+
+.whr h1 {
+
+    font-family: oppp;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+.gj p {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.img {
+    display: flex;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.mountt {
+    width: 365px;
+    height: 212px;
+    position: relative;
+    left: 210px;;
+    border-radius: 7px;
+}
+
+.pantt {
+    width: 350px;
+    height: 212px;
+    position: relative;
+    left: 370px;
+    border-radius: 7px;
+}
+
+.llk {
+    width: 290px;
+    height: 212px;
+    position: relative;
+    left: 40px;
+    border-radius: 7px;
+}
+
+.deff {
+    display: flex;
+    
+}
+
+.ee {
+    background-color: #2e4675; 
+    position: relative;
+    left: 626px;
+    color: white;
+    font-family: opp;
+    line-height: 0.7;
+    width: 190px;
+    height: 68px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.ee h3 {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+}
+
+.ee h1 {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+.qq {
+    background-color: #2e4675; 
+    position: relative;
+    left: 378px;
+    color: white;
+    font-family: opp;
+    line-height: 0.7;
+    width: 197px;
+    height: 68px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.qq h3 {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+}
+
+.qq h1 {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+.ww {
+    background-color: #2e4675; 
+    position: relative;
+    left: 120px;
+    color: white;
+    font-family: opp;
+    line-height: 0.7;
+    width: 197px;
+    height: 68px;
+    text-align: center;
+    border-radius: 9px;
+}
+
+.ww h3 {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+}
+
+.ww h1 {
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+.biasa {
+    font-family: oppp;
+    color: black;
+    opacity: 92%;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 55px 0px 0px 55px;
+}
+
+.kartun img {
+    width: 325px;
+    height: 298px;
+    position: relative;
+    left: 75px;
+    top: 45px;
+    box-shadow:
+  0px 0px 2.2px rgba(0, 0, 0, 0.028),
+  0px 0px 5.3px rgba(0, 0, 0, 0.034),
+  0px 0px 10px rgba(0, 0, 0, 0.04),
+  0px 0px 17.9px rgba(0, 0, 0, 0.054),
+  0px 0px 33.4px rgba(0, 0, 0, 0.083),
+  0px 0px 80px rgba(0, 0, 0, 0.15)
+;
+
+}
+
+.iyiy {
+    
+}
+
+.mmh {
+    
+}
+
+.bonfire {
+    color: black;
+    font-family: oppp;
+    position: relative;
+    left: 450px;
+    top: -250px;
+    font-size: 12px;
+    background-color: whitesmoke;
+    width: 500px;
+}
+
+.llo {
+    position: relative;
+    left: 450px;
+    top: -250px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-family: poppins;
+    line-height: 1.5;
+    opacity: 83%;
+    background-color: whitesmoke;
+    width: 540px;
+}
+
+.kkcl {
+    position: relative;
+    left: 450px;
+    top: -240px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-family: opp;
+    line-height: 1.5;
+    opacity: 93%;
+    background-color: whitesmoke;
+    width: 500px;
+}
+
+.ff {
+    color: black;
+    font-family: oppp;
+    font-size: 13px;
+    position: relative;
+    left: 55px;
+    top: -90px;
+    background-color: whitesmoke;
+    width: 580px;
+}
+
+.gambarr {
+    display: flex;
+    position: relative;
+    left: 5px;
+    top: -60px;
+    /* border: solid black 2px;
+    padding: 0px 100px 0px 40px; */
+}
+
+.nade img {
+    width: 283px;
+    height: 173px;
+    position: relative;
+    border-radius: 9px;
+}
+
+.aoo img {
+    width: 283px;
+    height: 173px;
+    position: relative;
+    border-radius: 9px;
+}
+
+.enaa img {
+    width: 283px;
+    height: 173px;
+    position: relative;
+    border-radius: 9px;
+}
+
+.chii img {
+    width: 283px;
+    height: 165px;
+    position: relative;
+    border-radius: 9px;
+}
+
+.gambarr h2 {
+    font-family: poppins;
+    font-size: 18px;
+}
+
+.gambarr p {
+    font-family: opp;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+
+.gambarr h3 {
+    font-family: poppins;
+    font-size: 14px;
+    position: relative;
+    top: -13px;
+}
+
+.footer {
+    display: flex;
+    background-color: #263c68;
+    width: 100%;
+    height: 254px;
+    position: relative;
+    top: 30px;
+}
+
+.footer p {
+    color: white;
+    font-family: poppins;
+    
+}
+
+.lort p {
+    font-size: 11px;
+}
+
+.teme p {
+    font-size: 11px;
+    position: relative;
+    left: 340px;
+    top: 80px;
+    letter-spacing: 0.6px;
+}
+
+.kontak {
+    
+}
+
+.kontak p {
+    font-size: 11px;
+    position: relative;
+    left: 225px;
+    letter-spacing: 0.6px;
+    top: 47px;
+}
+
+.kontak h2 {
+    font-family: opp;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 225px;
+    letter-spacing: 0.6px;
+    top: 45px;
+}
+
+.kontak h3 {
+    color: white;
+    font-family: opp;
+    font-size: 12px;
+    position: relative;
+    left: 225px;
+    letter-spacing: 1px;
+    top: 88px;
+    opacity: 90%;
+}
+
+/* partner */
+
+
+.partner p {
+    font-size: 11px;
+    position: relative;
+    left: 140px;
+    letter-spacing: 0.6px;
+    top: 47px;
+}
+
+.partner h2 {
+    font-family: opp;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    left: 140px;
+    letter-spacing: 0.6px;
+    top: 45px;
+}
+
+.partner h3 {
+    color: white;
+    font-family: opp;
+    font-size: 12px;
+    position: relative;
+    left: 140px;
+    letter-spacing: 1px;
+    top: 88px;
+    opacity: 90%;
+}
+
+.lort {
+    font-size: 11px;
+    position: relative;
+    left: 50px;
+    letter-spacing: 0.6px;
+    top: 87px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyr h3 {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    padding-bottom: 30px;
+    font-family: poppins;
+    font-size: 14px;
+    opacity: 89%;
+}
+
